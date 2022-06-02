@@ -29,6 +29,7 @@ public class SingletonService {
     @DisplayName("싱글톤 패턴을 적용한 객체 사용")
     public void singletonServiceTest(){
 
+
         //private으로 생성자를 막아두었다. 컴파일 오류가 발생한다.
         //new SingletonService();
 
